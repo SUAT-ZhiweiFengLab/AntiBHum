@@ -1,0 +1,14 @@
+# Matches the main tool versions verified locally; not a complete lockfile.
+name: antibhum
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.10
+  - anarci=2020.04.23
+  - hmmer=3.4
+  - numpy=1.26.4
+  - pandas=2.1.4
+  - biopython=1.79
+  - pip

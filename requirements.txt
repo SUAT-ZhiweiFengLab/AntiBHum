@@ -1,0 +1,4 @@
+# Install with --no-deps after creating the Conda backend environment.
+# abnumber declares ANARCII/Torch dependencies that this ANARCI backend does not use.
+abnumber==0.4.4
+biopython==1.79

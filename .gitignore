@@ -1,0 +1,37 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Generated results (keep example inputs and references)
+/examples/output/*
+!/examples/output/.gitkeep
+/results/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Native build intermediates must never enter the public repository
+*.so
+*.pyd
+*.pyx
+*.pxd
+*.c
+*.h
+*.whl
+*.tar.gz
