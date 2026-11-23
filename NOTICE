@@ -1,0 +1,53 @@
+AntiBHum licensing and attribution notice
+
+Required Notice: Copyright (c) 2026 AntiBHum contributors.
+Required Notice: AntiBHum project: https://github.com/SUAT-ZhiweiFengLab/AntiBHum
+
+Software license
+
+Original AntiBHum software made available by this project, including its public
+Python interface, scripts, tests, and official native binary distributions, is
+licensed under the PolyForm Noncommercial License 1.0.0 in LICENSE.
+SPDX identifier: PolyForm-Noncommercial-1.0.0
+
+The standard license text is unmodified. This notice identifies the project and
+the materials offered under that license; it does not replace its terms.
+Permitted purposes, distribution, modifications, notices, patent provisions,
+and warranty limitations are defined by LICENSE. Uses outside the permissions
+of LICENSE require a separate agreement with the applicable rights holders.
+Contact the project maintainers through the repository above for licensing
+inquiries.
+
+Private implementation
+
+The native core is distributed as compiled software. Providing a software
+license for the binary does not provide access to unpublished implementation
+source or commit the project to publishing that source. The software license
+is not a promise that the binary cannot be inspected or reverse-engineered.
+
+Study assets and documentation
+
+The PolyForm software license does not grant a separate license to reproduce
+or redistribute the manuscript figures, example amino-acid sequences, underlying
+experimental/benchmark data, or other non-software research materials. Those
+materials remain with their respective rights holders unless separately
+licensed. Attribution and provenance are recorded in assets/figures/README.md
+and examples/README.md. The full manuscript and raw experimental data are not
+included in this repository. No Creative Commons license is assigned by this
+notice. Other non-software documentation is not separately licensed here.
+
+Third-party components
+
+Third-party software and data retain their own copyright and license terms.
+This license does not relicense abnumber, ANARCI, HMMER, Biopython, NumPy,
+pandas, their dependencies, or their databases. Install and use them under
+their applicable terms. Including a dependency name here does not assert that
+its source or data is distributed inside the AntiBHum wheel.
+
+License text provenance
+
+PolyForm Noncommercial License 1.0.0 is published by the PolyForm Project:
+https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Noncommercial-1.0.0.md
+The same standard license was used by the local HuDiff reference project.
+Using that license text does not imply that AntiBHum is the HuDiff implementation
+or that HuDiff's authors hold rights in original AntiBHum contributions.

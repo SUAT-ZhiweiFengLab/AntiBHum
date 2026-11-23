@@ -41,4 +41,17 @@ Expected results with the current defaults:
 
 HL CSV columns are `date`, `template`, `seq_id`, `humanized_VH_sequence`, and `humanized_VL_sequence`. VHH CSV columns are `date`, `template`, `seq_id`, and `humanized_VHH_sequence`. Combined scFv sequences are available in FASTA, not in a CSV column. Input mode determines the CSV schema; use `--vhh` for the VHH column name.
 
-There are no reference FASTA files for these examples. Output sequences are generated candidates, not independent validation references. Input provenance and redistribution permission remain to be confirmed by the maintainer.
+There are no reference FASTA files for these examples. Output sequences are generated candidates, not independent validation references. The CLI generates nine templates by default; to request the five candidates illustrated in manuscript Figure 1, use `--heavy-top 5 --light-top 5` for HL or `--heavy-top 5` for VHH. This does not run the study's external scoring or experiments.
+
+## Input provenance
+
+Both input sequences were checked against the Supplementary Information of the supplied manuscript, *AntiBHum: Integrating Template-Guided Design and Experiment-Derived Residue Constraints for Antibody Humanization* (Liu et al.):
+
+| File | Manuscript section | Supplementary record | Match |
+|---|---|---|---|
+| `HL.fasta` | Sequences of FLT3-targeting scFvs | `E4_mAb` | Exact amino-acid sequence match, 247 aa |
+| `VHH.fasta` | Sequences of Trop2-targeting nanobodies | `14_WT` | Exact amino-acid sequence match, 122 aa |
+
+Comparison removes FASTA/PDF line wrapping and manuscript line numbers without changing amino acids. The source identifies these as the parental, pre-humanization inputs, not the humanized designs. See [manuscript and figure provenance](../assets/figures/README.md).
+
+Example sequences are excluded from the software license grant and remain with their respective rights holders unless separately licensed. This attribution does not supply a separate sequence-data license. See [NOTICE](../NOTICE).
